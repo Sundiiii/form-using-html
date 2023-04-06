@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <h1>School form</h1>
+    <form action="" enctype="multipart/form-data">
+        <div>
+            <label for="firstName" style="color: blue;">First Name</label>
+            <input type="text" placeholder="first name" style="margin: 2px;background-color: aqua;" required /><br>
+        </div>
+        <div>
+            <label for="lastName" style="color: blue;">Last Name</label>
+            <input type="text" id="lastName" placeholder="Last name" style="margin: 2px;background-color: aqua;"
+                required /><br>
+        </div>
+        <!-- ######## age ######## -->
+        <div>
+            <label for="age" style="color: blue;">age</label>
+            <input type="number" id="age" step="1" placeholder="age" style="margin: 2px;" min="1" max="15"
+                required /><br>
+        </div>
+        <!-- ##### birday##### -->
+        <div>
+            <label for="birthDay" style="color: blue;">birthDay</label>
+            <input type="date" id="birthDay" placeholder="birthDay" style="margin: 2px;background-color: aqua;"
+                required />
+        </div>
+        <div>
+            <label for="email" style="color: blue;">email</label>
+            <input type="email" id="email" placeholder="email" style="margin: 2px;background-color: aqua;" required />
+        </div>
+        <div>
+            <label for="teliphone" style="color: blue;">Teliphone</label>
+            <input type="tel" id="email" placeholder="teliphone" style="margin: 2px;background-color: aqua;" required />
+        </div>
+
+        <div>
+            <label for="gender" style="color: blue;">gender</label>
+            <div style="margin-left:46px ;">
+                <label for="male" style="color: blue;">male</label>
+                <input type="radio" name="gender" id="male" placeholder="male"
+                    style="margin: 2px;background-color: aqua;" required /><br>
+
+
+                <label for="female" style="color: blue;">female</label>
+                <input type="radio" name="gender" id="female" placeholder="male"
+                    style="margin: 2px;background-color: aqua;" required /><br>
+
+
+                <label for="other" style="color: blue;">other</label>
+                <input type="radio" name="gender" id="other" placeholder="male"
+                    style="margin: 2px;background-color: aqua;" required /><br>
+            </div>
+        </div>
+        <div>
+            <label for="food" style="color: blue;">froots</label>
+
+            <div style="margin-left:46px ;">
+                <label for="mango" style="color: blue;">mango</label>
+                <input type="checkbox" id="mango" style="margin: 2px;background-color: aqua;" required /><br>
+                <label for="banana" style="color: blue;">banana</label>
+                <input type="checkbox" id="banana" style="margin: 2px;background-color: aqua;" required /><br>
+                <label for="apple" style="color: blue;">apple</label>
+                <input type="checkbox" id="apple" style="margin: 2px;background-color: aqua;" required /><br>
+                <label for="custordapple" style="color: blue;">custordapple</label>
+                <input type="checkbox" id="custordapple" style="margin: 2px;background-color: aqua;" required /><br>
+            </div>
+        </div>
+        <textarea placeholder="write about you hare"></textarea>
+        <div>
+            <label for="image" style="color: blue;">image</label>
+            <input type="file" id="image" style="margin: 2px;background-color: aqua;" required /><br>
+        </div>
+        <button type="submit">submit</button>
+        <button type="reset">reset</button>
+    </form>
+</body>
+
+</html>
